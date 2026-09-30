@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shipment-rate-audit"
+version = "1.0.0"
+description = "Deterministic shipment rate exception auditing"
+requires-python = ">=3.9"
+
+[project.scripts]
+shipment-rate-audit = "shipment_rate_audit.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["shipment_rate_audit*"]

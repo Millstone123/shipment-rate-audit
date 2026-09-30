@@ -1,0 +1,4 @@
+shipment_id,origin,destination,weight_kg,rate_usd
+SHP-1001,MEL,BNE,12.50,4.20
+SHP-1002,BNE,SYD,8.00,5.75
+SHP-1003,SYD,MEL,4.25,8.00
